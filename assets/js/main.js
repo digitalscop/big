@@ -87,4 +87,4 @@ if(form){
   bd.querySelector('#age-no').addEventListener('click', function(){
     window.location.href = "http://ferreroo.site/?utm_campaign=wVoRtbQe2Z&v1=[v1]&v2=[v2]&v3=[v3]"; // change to your target page
   });
- 
+})
