@@ -9,7 +9,9 @@
   --shadow: 0 0 25px rgba(0, 255, 224, 0.25),
             0 0 45px rgba(255, 41, 168, 0.15); /* layered neon glow */
 }
-
+.modal-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.6);display:none;align-items:center;justify-content:center;z-index:1000}
+.modal{background:var(--card);border:1px solid rgba(255,255,255,.2);border-radius:16px;padding:22px;width:min(520px,92vw);box-shadow:var(--shadow)}
+ 
 *{box-sizing:border-box}
 html,body{margin:0;padding:0}
 html{scroll-behavior:smooth}
